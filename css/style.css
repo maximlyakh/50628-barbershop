@@ -19,3 +19,108 @@ h2 {
 	font-weight: bold;
 	font-family: "PT Sans", "Arial", serif;
 }
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.main-header {
+  margin-bottom: 60px;
+}
+.container {
+  width: 940px;
+	margin: 0 auto;
+  padding: 0 10px;
+}
+.main-navigation {
+	float: left;
+	width: 780px;
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+	margin-bottom: 25px;
+}
+.features {
+	margin-bottom: 80px;
+}
+.features-item {
+  float: left;
+  width: 300px;
+	margin-right: 20px;
+  
+  /* Только для оформления сетки */
+  min-height: 175px;
+}
+.features-item:last-child {
+  margin-right: 0;
+}
+.index-content {
+	margin-bottom: 35px;
+  padding: 50px 80px;
+}
+.index-content-left {
+	float: left;
+  width: 380px;
+  /* Только для оформления сетки */
+  min-height: 330px;
+}
+.index-content-right {
+	float: right;
+  width: 300px;
+  /* Только для оформления сетки */
+  min-height: 330px;
+}
+.main-footer {
+  margin-top: 65px;
+	padding-top: 60px;
+  padding-bottom: 40px;
+}
+.footer-contacts {
+	float: left;
+  width: 320px;
+	margin-right: 60px;
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+.footer-social {
+	float: left;
+  width: 180px;
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+.footer-copyright {
+	float: right;
+  width: 180px;
+  /* Только для оформления сетки */
+  min-height: 90px;
+}
+
+/*catalog-item*/
+.container a {
+	/*catalog-item*/
+	float: left;
+}
+.container h1 {
+	width: 621px;
+	margin-bottom: 27px;
+}
+.breadcrumbs {
+	width 621px;
+	margin-bottom: 58px;
+}
+.presentation {
+	width: 460px;
+}
+
